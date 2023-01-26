@@ -1,0 +1,335 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 598
+  ClientWidth = 357
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Z: TColorBox
+    Color = claAntiquewhite
+    Position.X = -48.000000000000000000
+    Position.Y = -16.000000000000000000
+    Size.Width = 497.000000000000000000
+    Size.Height = 657.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    StyledSettings = [Family]
+    Position.X = 48.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button10: TButton
+    StyledSettings = []
+    Position.X = 48.000000000000000000
+    Position.Y = 512.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = 'SWITCH MODE'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claCrimson
+    OnClick = ModeClick
+  end
+  object Button2: TButton
+    StyledSettings = [Family]
+    Position.X = 136.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button3: TButton
+    StyledSettings = [Family]
+    Position.X = 224.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button4: TButton
+    StyledSettings = [Family]
+    Position.X = 48.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button5: TButton
+    StyledSettings = [Family]
+    Position.X = 136.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button6: TButton
+    StyledSettings = [Family]
+    Position.X = 224.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button7: TButton
+    StyledSettings = [Family]
+    Position.X = 48.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button8: TButton
+    StyledSettings = [Family]
+    Position.X = 136.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object Button9: TButton
+    StyledSettings = [Family]
+    Position.X = 224.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    OnClick = ButtonClick
+  end
+  object KiskiBaari: TLabel
+    StyledSettings = []
+    Position.X = 240.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+    TextSettings.FontColor = claDarkred
+    Text = 'O'
+    TabOrder = 13
+  end
+  object Label2: TLabel
+    StyledSettings = []
+    Position.X = 48.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+    TextSettings.FontColor = claDarkgreen
+    Text = 'Player 1 -> O    ;     Player 2 -> X'
+    TabOrder = 15
+  end
+  object Line1: TLine
+    LineType = Diagonal
+    Position.X = 24.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object Line2: TLine
+    LineType = Diagonal
+    Position.X = 24.000000000000000000
+    Position.Y = 368.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object Line3: TLine
+    LineType = Diagonal
+    Position.X = 24.000000000000000000
+    Position.Y = 456.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object Line4: TLine
+    LineType = Diagonal
+    Position.X = 88.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 281.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object Line5: TLine
+    LineType = Diagonal
+    Position.X = 176.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 281.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object Line6: TLine
+    LineType = Diagonal
+    Position.X = 264.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 281.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object Line7: TLine
+    LineType = Diagonal
+    Position.X = 40.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 273.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object Line8: TLine
+    LineType = Diagonal
+    Position.X = 40.000000000000000000
+    Position.Y = 232.000000000000000000
+    RotationAngle = 90.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 273.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCrimson
+    Visible = False
+  end
+  object MainTitle: TLabel
+    StyledSettings = []
+    Position.X = 40.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 37.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    TextSettings.HorzAlign = Center
+    Text = 'TIC TAC TOE'
+    TabOrder = 12
+  end
+  object MakeMove: TLabel
+    StyledSettings = []
+    Position.X = 48.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+    TextSettings.FontColor = claDarkred
+    Text = 'Make your move, player'
+    TabOrder = 14
+  end
+  object Mode: TButton
+    StyledSettings = []
+    Position.X = 48.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'PLAYING AGAINST HUMAN'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+    TextSettings.FontColor = claDarkgreen
+    OnClick = ModeClick
+  end
+  object Restart: TButton
+    StyledSettings = []
+    Position.X = 176.000000000000000000
+    Position.Y = 512.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'RESTART GAME'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claCrimson
+    OnClick = RestartClick
+  end
+  object Label1: TLabel
+    StyledSettings = []
+    Position.X = 264.000000000000000000
+    Position.Y = 576.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 15.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claIndigo
+    Text = '- Vidit Tayal'
+    TabOrder = 19
+  end
+end

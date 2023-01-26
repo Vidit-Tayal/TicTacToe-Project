@@ -1,0 +1,54 @@
+inherited Form1_Windows: TForm1_Windows
+  DesignerMasterStyle = 0
+  inherited Button1: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button10: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button2: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button3: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button4: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button5: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button6: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button7: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button8: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Button9: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited KiskiBaari: TLabel
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+  end
+  inherited Label2: TLabel
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+  end
+  inherited MainTitle: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited MakeMove: TLabel
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+  end
+  inherited Mode: TButton
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+  end
+  inherited Restart: TButton
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label1: TLabel
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+end
