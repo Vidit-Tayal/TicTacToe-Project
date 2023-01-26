@@ -8,6 +8,6 @@ LANGUAGE USED: C++
 GUI: C++ BUILDER, RAD STUDIO
 
 FOR WINDOWS:
-  Simply download the .exe file and play game.
+  Simply download the (standalone).exe file and play game.
 
 
