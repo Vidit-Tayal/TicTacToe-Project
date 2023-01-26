@@ -3,7 +3,7 @@ A complete Tic Tac Toe project along with the implementation of GUI.
 
 LANGUAGE USED: C++
 
-GUI BUILT USING C++ BUILDER AND RAD STUDIO
+GUI: C++ BUILDER, RAD STUDIO
 
 DEMO VIDEO: https://www.youtube.com/watch?v=gfch7KrreJg
 
